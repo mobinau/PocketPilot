@@ -1,0 +1,126 @@
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.CalendarMigrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+ir.pocketpilot.CalendarMigrationTest:
+INSTRUMENTATION_STATUS: test=migrationPreservesExistingBudgetAndTransaction
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.CalendarMigrationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stack=org.json.JSONException: No value for indices
+	at org.json.JSONObject.get(JSONObject.java:400)
+	at org.json.JSONObject.getJSONArray(JSONObject.java:595)
+	at ir.pocketpilot.CalendarMigrationTest$migrationPreservesExistingBudgetAndTransaction$1.invokeSuspend(CalendarMigrationTest.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at ir.pocketpilot.CalendarMigrationTest.migrationPreservesExistingBudgetAndTransaction(CalendarMigrationTest.kt:29)
+
+INSTRUMENTATION_STATUS: stream=
+Error in migrationPreservesExistingBudgetAndTransaction(ir.pocketpilot.CalendarMigrationTest):
+org.json.JSONException: No value for indices
+	at org.json.JSONObject.get(JSONObject.java:400)
+	at org.json.JSONObject.getJSONArray(JSONObject.java:595)
+	at ir.pocketpilot.CalendarMigrationTest$migrationPreservesExistingBudgetAndTransaction$1.invokeSuspend(CalendarMigrationTest.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at ir.pocketpilot.CalendarMigrationTest.migrationPreservesExistingBudgetAndTransaction(CalendarMigrationTest.kt:29)
+
+INSTRUMENTATION_STATUS: test=migrationPreservesExistingBudgetAndTransaction
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.CalendarMigrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=androidIcuHandlesNowruzLeapEsfandAndTimeZones
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.CalendarMigrationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=androidIcuHandlesNowruzLeapEsfandAndTimeZones
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.NavigationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+ir.pocketpilot.NavigationTest:
+INSTRUMENTATION_STATUS: test=onboardingAndBottomNavigationWorkInPersian
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.NavigationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=onboardingAndBottomNavigationWorkInPersian
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.RoomRepositoryTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+ir.pocketpilot.RoomRepositoryTest:
+INSTRUMENTATION_STATUS: test=seedCrudAndClearArePersistentAndIdempotent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.RoomRepositoryTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=seedCrudAndClearArePersistentAndIdempotent
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.RoomRepositoryTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=recurringOccurrencesAndBudgetUpsertsAreIdempotent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ir.pocketpilot.RoomRepositoryTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=recurringOccurrencesAndBudgetUpsertsAreIdempotent
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: ۱۶٫۴۲۶
+There was 1 failure:
+1) migrationPreservesExistingBudgetAndTransaction(ir.pocketpilot.CalendarMigrationTest)
+org.json.JSONException: No value for indices
+	at org.json.JSONObject.get(JSONObject.java:400)
+	at org.json.JSONObject.getJSONArray(JSONObject.java:595)
+	at ir.pocketpilot.CalendarMigrationTest$migrationPreservesExistingBudgetAndTransaction$1.invokeSuspend(CalendarMigrationTest.kt:40)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at ir.pocketpilot.CalendarMigrationTest.migrationPreservesExistingBudgetAndTransaction(CalendarMigrationTest.kt:29)
+
+FAILURES!!!
+Tests run: 5,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

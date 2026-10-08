@@ -1,0 +1,31 @@
+INFO    | Android emulator version 33.1.24.0 (build_id 11237101) (CL:N/A)
+INFO    | Found systemPath D:\Android-SDK\system-images\android-30\google_apis\x86\
+INFO    | Storing crashdata in: , detection is enabled for process: 360
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+INFO    | Increasing RAM size to 2048MB
+INFO    | IPv4 server found: 
+INFO    | Ignore IPv6 address: 8f:63fc:5d02:0:d087:63fc:5d02:0
+INFO    | Ignore IPv6 address: 8f:63fc:5d02:0:d087:63fc:5d02:0 (2x)
+INFO    | Ignore IPv6 address: 7095:63fc:5d02:0:d087:63fc:5d02:0
+INFO    | Ignore IPv6 address: 7095:63fc:5d02:0:d087:63fc:5d02:0 (2x)
+INFO    | Ignore IPv6 address: 909b:63fc:5d02:0:d087:63fc:5d02:0
+INFO    | Ignore IPv6 address: 909b:63fc:5d02:0:d087:63fc:5d02:0 (2x)
+INFO    | Ignore IPv6 address: 18af:63fc:5d02:0:d087:63fc:5d02:0
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+createGlobalVkEmulation:963 Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0)
+HAX is working and emulator runs in fast virt mode.
+INFO    | Using security allow list from: D:\Android-SDK\emulator\lib\emulator_access.json
+INFO    | The active JSON Web Key Sets can be found here: C:\Users\ASUS\AppData\Local\Temp\avd\running\360\jwks\cd6cd136-3a77-4271-b2fa-8de53dde94c0\active.jwk
+INFO    | Scanning C:\Users\ASUS\AppData\Local\Temp\avd\running\360\jwks\cd6cd136-3a77-4271-b2fa-8de53dde94c0 for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: C:\Users\ASUS\AppData\Local\Temp\avd\running\pid_360.ini
+INFO    | Cold boot: requested by the user
+INFO    | Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android Emulator" checkbox
+ - Click "OK"
+INFO    | Boot completed in 64749 ms
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.
+INFO    | Wait for emulator (pid 360) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)

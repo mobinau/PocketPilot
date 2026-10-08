@@ -1,0 +1,24 @@
+INFO    | Android emulator version 33.1.24.0 (build_id 11237101) (CL:N/A)
+INFO    | Found systemPath D:\Android-SDK\system-images\android-30\google_apis\x86\
+INFO    | Storing crashdata in: , detection is enabled for process: 14060
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+INFO    | Increasing RAM size to 2048MB
+INFO    | IPv4 server found: 
+INFO    | Ignore IPv6 address: f0e7:cad9:c101:0:c0e0:cad9:c101:0
+INFO    | Ignore IPv6 address: f0e7:cad9:c101:0:c0e0:cad9:c101:0 (2x)
+INFO    | Ignore IPv6 address: 60ee:cad9:c101:0:c0e0:cad9:c101:0
+INFO    | Ignore IPv6 address: 60ee:cad9:c101:0:c0e0:cad9:c101:0 (2x)
+INFO    | Ignore IPv6 address: 80f4:cad9:c101:0:c0e0:cad9:c101:0
+INFO    | Ignore IPv6 address: 80f4:cad9:c101:0:c0e0:cad9:c101:0 (2x)
+INFO    | Ignore IPv6 address: 808:cbd9:c101:0:c0e0:cad9:c101:0
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+createGlobalVkEmulation:963 Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0)
+HAX is working and emulator runs in fast virt mode.
+INFO    | Using security allow list from: D:\Android-SDK\emulator\lib\emulator_access.json
+INFO    | The active JSON Web Key Sets can be found here: C:\Users\ASUS\AppData\Local\Temp\avd\running\14060\jwks\00bbbe4c-6e43-4168-a1d8-960b715e3cd7\active.jwk
+INFO    | Scanning C:\Users\ASUS\AppData\Local\Temp\avd\running\14060\jwks\00bbbe4c-6e43-4168-a1d8-960b715e3cd7 for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: C:\Users\ASUS\AppData\Local\Temp\avd\running\pid_14060.ini
+INFO    | Cold boot: requested by the user
+INFO    | Boot completed in 85007 ms
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.
