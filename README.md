@@ -1,5 +1,8 @@
 # PocketPilot / پول‌یار
 
+![Coffee Sales Dashboard](screen1.png)
+(screen2.png)
+
 پول‌یار یک برنامه اندرویدی مدیریت مالی شخصی با رابط فارسی و راست‌به‌چپ است. درآمد و هزینه را ثبت کنید، بودجه تعیین کنید و الگوهای مالی خود را با گزارش‌ها و دستیار محلی بشناسید. برنامه کاملاً آفلاین کار می‌کند و برای حالت آزمایشی به کلید API نیاز ندارد.
 
 PocketPilot is a Persian-first, offline-first Android personal finance application. It includes transaction management, monthly budgets, analytics, reports, local financial insights, and an on-device demo assistant. No backend or API key is required.
